@@ -23,6 +23,7 @@
 		849253B529438DC20068D6E0 /* CameraAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253B429438DC20068D6E0 /* CameraAccessor.swift */; };
 		849253B729438DD50068D6E0 /* MicrophoneAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253B629438DD50068D6E0 /* MicrophoneAccessor.swift */; };
 		849253B929438DE60068D6E0 /* PhotoLibraryAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253B829438DE60068D6E0 /* PhotoLibraryAccessor.swift */; };
+		849253BC294392570068D6E0 /* info.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 849253BB294392570068D6E0 /* info.rtfd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		849253B429438DC20068D6E0 /* CameraAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAccessor.swift; sourceTree = "<group>"; };
 		849253B629438DD50068D6E0 /* MicrophoneAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneAccessor.swift; sourceTree = "<group>"; };
 		849253B829438DE60068D6E0 /* PhotoLibraryAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryAccessor.swift; sourceTree = "<group>"; };
+		849253BB294392570068D6E0 /* info.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = info.rtfd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				849253A029438C160068D6E0 /* ViewControllers */,
 				8492539F29438C0F0068D6E0 /* Storyboards */,
 				8492537829438BE00068D6E0 /* Assets.xcassets */,
+				849253BA2943924A0068D6E0 /* info */,
 				8492537D29438BE00068D6E0 /* Info.plist */,
 			);
 			path = "Template Method";
@@ -218,6 +221,14 @@
 				849253B829438DE60068D6E0 /* PhotoLibraryAccessor.swift */,
 			);
 			path = Accessors;
+			sourceTree = "<group>";
+		};
+		849253BA2943924A0068D6E0 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				849253BB294392570068D6E0 /* info.rtfd */,
+			);
+			path = info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +337,7 @@
 			files = (
 				8492537C29438BE00068D6E0 /* LaunchScreen.storyboard in Resources */,
 				8492537929438BE00068D6E0 /* Assets.xcassets in Resources */,
+				849253BC294392570068D6E0 /* info.rtfd in Resources */,
 				8492537729438BDE0068D6E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
