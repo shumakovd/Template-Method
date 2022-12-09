@@ -8,14 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		8492537029438BDE0068D6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492536F29438BDE0068D6E0 /* AppDelegate.swift */; };
-		8492537229438BDE0068D6E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492537129438BDE0068D6E0 /* SceneDelegate.swift */; };
-		8492537429438BDE0068D6E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492537329438BDE0068D6E0 /* ViewController.swift */; };
 		8492537729438BDE0068D6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492537529438BDE0068D6E0 /* Main.storyboard */; };
 		8492537929438BE00068D6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8492537829438BE00068D6E0 /* Assets.xcassets */; };
 		8492537C29438BE00068D6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492537A29438BE00068D6E0 /* LaunchScreen.storyboard */; };
 		8492538729438BE10068D6E0 /* Template_MethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492538629438BE10068D6E0 /* Template_MethodTests.swift */; };
 		8492539129438BE10068D6E0 /* Template_MethodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492539029438BE10068D6E0 /* Template_MethodUITests.swift */; };
 		8492539329438BE10068D6E0 /* Template_MethodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492539229438BE10068D6E0 /* Template_MethodUITestsLaunchTests.swift */; };
+		849253A529438C490068D6E0 /* TemplateMethodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253A429438C490068D6E0 /* TemplateMethodVC.swift */; };
+		849253A929438CFD0068D6E0 /* AbstractProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253A829438CFD0068D6E0 /* AbstractProtocol.swift */; };
+		849253AB29438D0F0068D6E0 /* ConcreteClass1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253AA29438D0F0068D6E0 /* ConcreteClass1.swift */; };
+		849253AD29438D1C0068D6E0 /* ConcreteClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253AC29438D1C0068D6E0 /* ConcreteClass2.swift */; };
+		849253B029438D310068D6E0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253AF29438D310068D6E0 /* Client.swift */; };
+		849253B329438DB20068D6E0 /* PermissionAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253B229438DB20068D6E0 /* PermissionAccessor.swift */; };
+		849253B529438DC20068D6E0 /* CameraAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253B429438DC20068D6E0 /* CameraAccessor.swift */; };
+		849253B729438DD50068D6E0 /* MicrophoneAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253B629438DD50068D6E0 /* MicrophoneAccessor.swift */; };
+		849253B929438DE60068D6E0 /* PhotoLibraryAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253B829438DE60068D6E0 /* PhotoLibraryAccessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +45,6 @@
 /* Begin PBXFileReference section */
 		8492536C29438BDE0068D6E0 /* Template Method.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template Method.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8492536F29438BDE0068D6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8492537129438BDE0068D6E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8492537329438BDE0068D6E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8492537629438BDE0068D6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8492537829438BE00068D6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8492537B29438BE00068D6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,15 @@
 		8492538C29438BE10068D6E0 /* Template MethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Template MethodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8492539029438BE10068D6E0 /* Template_MethodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template_MethodUITests.swift; sourceTree = "<group>"; };
 		8492539229438BE10068D6E0 /* Template_MethodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template_MethodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		849253A429438C490068D6E0 /* TemplateMethodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodVC.swift; sourceTree = "<group>"; };
+		849253A829438CFD0068D6E0 /* AbstractProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractProtocol.swift; sourceTree = "<group>"; };
+		849253AA29438D0F0068D6E0 /* ConcreteClass1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteClass1.swift; sourceTree = "<group>"; };
+		849253AC29438D1C0068D6E0 /* ConcreteClass2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteClass2.swift; sourceTree = "<group>"; };
+		849253AF29438D310068D6E0 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		849253B229438DB20068D6E0 /* PermissionAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionAccessor.swift; sourceTree = "<group>"; };
+		849253B429438DC20068D6E0 /* CameraAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAccessor.swift; sourceTree = "<group>"; };
+		849253B629438DD50068D6E0 /* MicrophoneAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrophoneAccessor.swift; sourceTree = "<group>"; };
+		849253B829438DE60068D6E0 /* PhotoLibraryAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryAccessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +114,11 @@
 			isa = PBXGroup;
 			children = (
 				8492536F29438BDE0068D6E0 /* AppDelegate.swift */,
-				8492537129438BDE0068D6E0 /* SceneDelegate.swift */,
-				8492537329438BDE0068D6E0 /* ViewController.swift */,
-				8492537529438BDE0068D6E0 /* Main.storyboard */,
+				849253A229438C220068D6E0 /* Example */,
+				849253A129438C1D0068D6E0 /* Concept */,
+				849253A029438C160068D6E0 /* ViewControllers */,
+				8492539F29438C0F0068D6E0 /* Storyboards */,
 				8492537829438BE00068D6E0 /* Assets.xcassets */,
-				8492537A29438BE00068D6E0 /* LaunchScreen.storyboard */,
 				8492537D29438BE00068D6E0 /* Info.plist */,
 			);
 			path = "Template Method";
@@ -125,6 +139,85 @@
 				8492539229438BE10068D6E0 /* Template_MethodUITestsLaunchTests.swift */,
 			);
 			path = "Template MethodUITests";
+			sourceTree = "<group>";
+		};
+		8492539F29438C0F0068D6E0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8492537529438BDE0068D6E0 /* Main.storyboard */,
+				8492537A29438BE00068D6E0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		849253A029438C160068D6E0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				849253A329438C2E0068D6E0 /* TemplateMethodVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		849253A129438C1D0068D6E0 /* Concept */ = {
+			isa = PBXGroup;
+			children = (
+				849253A629438CEB0068D6E0 /* Abstract */,
+				849253A729438CF20068D6E0 /* Classes */,
+				849253AE29438D280068D6E0 /* Client */,
+			);
+			path = Concept;
+			sourceTree = "<group>";
+		};
+		849253A229438C220068D6E0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				849253B129438DA50068D6E0 /* Accessors */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		849253A329438C2E0068D6E0 /* TemplateMethodVC */ = {
+			isa = PBXGroup;
+			children = (
+				849253A429438C490068D6E0 /* TemplateMethodVC.swift */,
+			);
+			path = TemplateMethodVC;
+			sourceTree = "<group>";
+		};
+		849253A629438CEB0068D6E0 /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				849253A829438CFD0068D6E0 /* AbstractProtocol.swift */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		849253A729438CF20068D6E0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				849253AA29438D0F0068D6E0 /* ConcreteClass1.swift */,
+				849253AC29438D1C0068D6E0 /* ConcreteClass2.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		849253AE29438D280068D6E0 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				849253AF29438D310068D6E0 /* Client.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		849253B129438DA50068D6E0 /* Accessors */ = {
+			isa = PBXGroup;
+			children = (
+				849253B229438DB20068D6E0 /* PermissionAccessor.swift */,
+				849253B429438DC20068D6E0 /* CameraAccessor.swift */,
+				849253B629438DD50068D6E0 /* MicrophoneAccessor.swift */,
+				849253B829438DE60068D6E0 /* PhotoLibraryAccessor.swift */,
+			);
+			path = Accessors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +351,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8492537429438BDE0068D6E0 /* ViewController.swift in Sources */,
+				849253A929438CFD0068D6E0 /* AbstractProtocol.swift in Sources */,
+				849253B729438DD50068D6E0 /* MicrophoneAccessor.swift in Sources */,
+				849253AB29438D0F0068D6E0 /* ConcreteClass1.swift in Sources */,
+				849253B929438DE60068D6E0 /* PhotoLibraryAccessor.swift in Sources */,
+				849253B029438D310068D6E0 /* Client.swift in Sources */,
+				849253B529438DC20068D6E0 /* CameraAccessor.swift in Sources */,
 				8492537029438BDE0068D6E0 /* AppDelegate.swift in Sources */,
-				8492537229438BDE0068D6E0 /* SceneDelegate.swift in Sources */,
+				849253B329438DB20068D6E0 /* PermissionAccessor.swift in Sources */,
+				849253AD29438D1C0068D6E0 /* ConcreteClass2.swift in Sources */,
+				849253A529438C490068D6E0 /* TemplateMethodVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,11 +540,13 @@
 				DEVELOPMENT_TEAM = N4M3759P9C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Template Method/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) use camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) use microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) use photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +554,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Template-Method";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,11 +573,13 @@
 				DEVELOPMENT_TEAM = N4M3759P9C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Template Method/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) use camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) use microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) use photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +587,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Template-Method";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
